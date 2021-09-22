@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>product landing page</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                    <a href="#" class="logo"><img src="./images/logo.png"></a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">What's New</a></li>
+                        <li><a href="#" class="orange">Contact</a></li>
+                    </ul>
+            </header>
+            <div class="main">
+                <div class="text">
+                    <h2>What you do,<br> the way you think,<span>makes you beautiful</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi nostrum rem facere ipsam sunt mollitia deserunt ipsa commodi sed, impedit nisi hic architecto exercitationem iure dolore tenetur sequi quidem.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ab nihil cum maxime, tempore quod blanditiis porro repellendus magni molestiae dolorum magnam facere adipisci explicabo libero aperiam nisi minima amet.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="img-box">
+                    <img src="images/makeup.png" class="make">
+                </div>
+            </div>
+            <ul class="smallpic">
+                <li><img src="./images/makeup.png" onmouseover="imgSlider('./images/makeup.png')"></li>
+                <li><img src="./images//makeup2.png" onmouseover="imgSlider('./images/makeup2.png')"></li>
+                <li><img src="./images/makeup3.png" onmouseover="imgSlider('./images/makeup3.png')"></li>
+
+            </ul>
+            <ul class="social">
+                <li><a href="#"><i class="fab fa-facebook-square"></a></i></li>
+                <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.make').src = anything;
+        }
+        </script>
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
